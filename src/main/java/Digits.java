@@ -7,7 +7,7 @@ public class Digits
 
 	public Digits(int num)
 	{ /* to be implemented in part (a) */ 
-	    for (int i = 0; i < num.toString().length(); i++) {
+	    for (int i = 0; i < num + "".length(); i++) {
 		digitList.add(0, num % 10);
 		num /= 10;
 	    }
